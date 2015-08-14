@@ -1,8 +1,9 @@
 server:
   port: 8999
   
-application:
-  name: citiesService
+spring:
+  application:
+    name: citiesService
   
 cities:
   mock:
