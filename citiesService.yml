@@ -1,0 +1,9 @@
+server:
+  port: 8999
+  
+application:
+  name: citiesService
+  
+cities:
+  mock:
+    mongo: false
