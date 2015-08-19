@@ -1,0 +1,11 @@
+server:
+  port: 8999
+  
+spring:
+  application:
+    name: categoriesService
+  data:
+    mongodb:
+      uri: mongodb://user:password@localhost:3412/shows
+
+
