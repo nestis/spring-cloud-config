@@ -1,0 +1,9 @@
+server:
+  port: 8999
+  
+spring:
+  application:
+    name: citiesService
+  data:
+    mongodb:
+      uri: mongodb://user:password@ds033153.mongolab.com:33153/CloudFoundry_huav49ce_7heclbab

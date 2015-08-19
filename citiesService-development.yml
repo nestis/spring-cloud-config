@@ -1,10 +1,11 @@
 server:
-  port: 8990
+  port: 8999
   
 spring:
   application:
     name: citiesService
-  
-cities:
-  mock:
-    mongo: true
+  data:
+    mongodb:
+      uri: mongodb://user:password@localhost:3412/shows
+
+
